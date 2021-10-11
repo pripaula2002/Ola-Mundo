@@ -1,0 +1,87 @@
+	<!DOCTYPE html>
+	<html lang="pt-br"> 
+	<head>
+		<title>AGENDAMENTOS</title>
+ 		<meta charset="utf-8"/>
+ 		<meta name="author" content="Priscila de Paula"/>
+ 		<meta name="Keywords" content="PP"/>
+ 		<meta name="description" content="nome de uma pessoa"/>
+	</head>
+	<body link="#8BC34A" alink="#8BC34A" vlink="#8BC34A">
+		
+		<img src="img/banner.png" width="100%" height="200" />
+		<hr/>
+		
+	<CENTER>
+			<font face="areal" size="4">
+		<a href="paginaparque.html"> HOME </a>
+		<a href="paginaparque.html#pag-beneficios">BENEFICIOS </a>
+		<a href="paginaparque.html#pag-modalidades"> MODALIDADES </a>
+		<a href="#"> AGENDAMENTOS </a>
+		</font>
+	</CENTER>
+	<hr/>
+	<font face="Kaushan Script" size="5" color="blue">
+		<h1 align="center">Agendamentos</h1>
+	</font>
+	<font face="Kaushan Script" size="4" color="#212121">
+	<p align="justify"> Agende sua aula experimental <b>GRATIS!</b></p>
+	
+	<form name="" method="" action="">
+		<label for="nome">Nome:</label></br>
+		<input id="nome" type="text" name="nome_completo" size="80" placeholder="Digite seu nome completo" required autofocus="" /></br>
+
+		<label for="email">E-mail:</label><br/>
+		<input id="email" type="email" name="email" size="80" placeholder="nome@email.com.br"/></br>
+
+		<label for="senha">Senha:</label><br/>
+		<input id="senha" type="password" name="senha" size="80" placeholder="somente números"/><br/>
+
+		<label for="celular">Celular:</label><br/>
+		<input id="celular" type="tel" name="celular" size="80" placeholder="(99)99999-9999" pattern="^\(?\d{2}\)\d{5}[-\s]\d{4}.*$" /></br><br/>
+
+		<label for="data">Data:</label>
+		<input id="data" type="date" name="data" />
+
+		<label for="hora">"Hora:</label>
+		<input id= "hora" type="time" name="hora" />
+
+		<label for="aulas">Aulas:</label>
+		<input id="aulas" type="number" name="aulas" min="1" max="10" step="1" /><br/><br/>
+
+		<label>Nivel</label>
+		 <select id="nivel" name="nivel">
+		 	<option>Selecione</option>
+		 	<option value="iniciante">Iniciante</option>
+		 	<option value="basico">Básico</option>
+		 	<option value="intermediario">Intermediário</option>
+		 </select><br/><br/>
+
+		 <fieldset>
+		 	<legend>Genero:</legend>
+			<input type="radio" name="genero" value="masc." /><label>Masculino</label><br/>
+		 	<input type="radio" name="genero" value="fem." /><label>Feminino</label><br/>
+		 </fieldset><br/><br/>
+
+
+		 <fieldset>
+		 	<legend>Atividade:</legend>
+		 	<input id= "musc" type="checkbox" name="atividade" value="musculacao" /><label for="musc">Musculação</label><br/>
+		 	<input id= "pila" type="checkbox" name="atividade" value="pilates" /><label for="pila">Pilates</label><br/>
+		 	<input id= "corr" type="checkbox" name="atividade" value="corrida" /><label for="corr">Corrida</label><br/>
+		 </fieldset>
+
+		 <label for="msg">Mensagem:</label><br/>
+		 <textarea id="msg" cols="80" rows="4">
+		 </textarea>
+
+	<p><input type="submit" name="bnt-agendar" value="AGENDAR" />
+		<input type="reset" name="btn-cancelar" value="CANCELAR" /></p>
+	</form>
+
+
+	<hr/>
+	 	<p align="center"><font color="#212121">Desenvolvido por <a href="http://facebook.com.br" target="blank">Priscila S. F. de Paula 2020.</p><br/>
+			</font>
+		</body>
+ 	</html>
